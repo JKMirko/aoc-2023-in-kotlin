@@ -3,9 +3,9 @@ package day01
 import com.google.common.truth.Truth.assertThat
 import org.junit.jupiter.api.Test
 
-class PartTwoTest {
+class Day01PartTwoTest {
 
-    val sut = PartTwo(testInput2)
+    val sut = Day01PartTwo(testInput2)
 
     @Test
     fun shouldSolve() {

@@ -2,7 +2,7 @@ package day01
 
 import java.io.File
 
-class PartOne(
+class Day01PartOne(
     private val input: String = File("src/main/kotlin/day01/input.txt").readText()
 ) {
 
@@ -16,6 +16,6 @@ class PartOne(
 }
 
 fun main() {
-    val solver = PartOne()
+    val solver = Day01PartOne()
     println(solver.solve()) // 53080
 }

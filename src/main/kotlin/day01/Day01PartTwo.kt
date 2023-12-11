@@ -2,7 +2,7 @@ package day01
 
 import java.io.File
 
-class PartTwo(
+class Day01PartTwo(
     private val input: String = File("src/main/kotlin/day01/input.txt").readText()
 ) {
 
@@ -38,6 +38,6 @@ class PartTwo(
 }
 
 fun main() {
-    val solver = PartTwo()
+    val solver = Day01PartTwo()
     println(solver.solve()) // 53268
 }
